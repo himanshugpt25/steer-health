@@ -1,0 +1,37 @@
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-04T18:33:14.762Z"}
+{"level":"info","message":"Environment: undefined","timestamp":"2024-12-04T18:33:14.773Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-04T18:41:07.161Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-04T18:41:07.163Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-04T18:46:30.449Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-04T18:46:30.452Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-04T18:46:41.470Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-04T18:46:41.472Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-04T18:50:07.001Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-04T18:50:07.006Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-04T18:59:41.872Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-04T18:59:41.877Z"}
+{"level":"info","message":"MongoDB Connected: oh-staging-shard-00-00-d8bdr.mongodb.net","timestamp":"2024-12-04T19:07:35.115Z"}
+{"level":"error","message":"not authorized on staging-test to execute command { find: \"users\", filter: { firstName: \"Himanshu\", lastName: \"Gupta\", dateOfBirth: new Date(901411200000) }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID(\"ec4481d6-a93d-4561-8c9b-9719b5f137b7\") }, $clusterTime: { clusterTime: Timestamp(1733339247, 1), signature: { hash: BinData(0, 749047958E59B3EB3A14B2A8685D61CDC3C6200B), keyId: 7401219650287042562 } }, $db: \"staging-test\" }","timestamp":"2024-12-04T19:07:36.621Z"}
+{"level":"error","message":"not authorized on staging-test to execute command { find: \"users\", filter: { firstName: \"Himanshu\", lastName: \"Gupta\", dateOfBirth: new Date(901411200000) }, limit: 1, singleBatch: true, batchSize: 1, lsid: { id: UUID(\"34285955-aedd-4b94-9342-e2ffc45af94b\") }, $clusterTime: { clusterTime: Timestamp(1733339247, 1), signature: { hash: BinData(0, 749047958E59B3EB3A14B2A8685D61CDC3C6200B), keyId: 7401219650287042562 } }, $db: \"staging-test\" }","timestamp":"2024-12-04T19:28:20.178Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-04T19:28:36.689Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-04T19:28:36.691Z"}
+{"level":"error","message":"Error connecting to MongoDB: database names cannot contain the character '/'","stack":"MongoAPIError: database names cannot contain the character '/'\n    at validateDatabaseName (/Users/himanshugupta/Downloads/project 10/node_modules/mongodb/lib/db.js:376:19)\n    at new Db (/Users/himanshugupta/Downloads/project 10/node_modules/mongodb/lib/db.js:88:9)\n    at MongoClient.db (/Users/himanshugupta/Downloads/project 10/node_modules/mongodb/lib/mongo_client.js:255:20)\n    at _setClient (/Users/himanshugupta/Downloads/project 10/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:337:58)\n    at NativeConnection.createClient (/Users/himanshugupta/Downloads/project 10/node_modules/mongoose/lib/drivers/node-mongodb-native/connection.js:298:3)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at NativeConnection.openUri (/Users/himanshugupta/Downloads/project 10/node_modules/mongoose/lib/connection.js:789:5)\n    at getDbConnection (file:///Users/himanshugupta/Downloads/project 10/src/config/database.ts:25:18)\n    at findOrCreateUser (file:///Users/himanshugupta/Downloads/project 10/src/controllers/userController.ts:11:5)","timestamp":"2024-12-04T19:28:42.524Z"}
+{"level":"error","message":"database names cannot contain the character '/'","timestamp":"2024-12-04T19:28:42.524Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-04T19:31:40.551Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-04T19:31:40.554Z"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.qk24a.mongodb.net","timestamp":"2024-12-04T19:31:44.842Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-05T04:04:12.402Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-05T04:04:12.404Z"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.qk24a.mongodb.net","timestamp":"2024-12-05T04:04:46.416Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-05T04:05:36.266Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-05T04:05:36.298Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-05T04:05:41.085Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-05T04:05:41.086Z"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.qk24a.mongodb.net","timestamp":"2024-12-05T04:05:50.029Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-05T04:15:44.865Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-05T04:15:44.870Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-05T04:47:58.342Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-05T04:47:58.343Z"}
+{"level":"info","message":"Server is running on port 3000","timestamp":"2024-12-05T04:49:05.475Z"}
+{"level":"info","message":"Environment: development","timestamp":"2024-12-05T04:49:05.477Z"}
+{"level":"info","message":"MongoDB Connected: cluster0-shard-00-00.qk24a.mongodb.net","timestamp":"2024-12-05T04:49:42.208Z"}
