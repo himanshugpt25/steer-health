@@ -41,6 +41,7 @@ const userRoutes_js_1 = __importDefault(require("./routes/userRoutes.js"));
 const appointmentRoutes_js_1 = __importDefault(require("./routes/appointmentRoutes.js"));
 const server_js_1 = require("./config/server.js");
 const errorHandler_js_1 = require("./middleware/errorHandler.js");
+const logger_js_1 = require("./utils/logger.js");
 const dotenv = __importStar(require("dotenv"));
 dotenv.config();
 /**
@@ -60,12 +61,12 @@ const createServer = () => {
     app.use(errorHandler_js_1.errorHandler);
     return app;
 };
-// if (process.env.NODE_ENV === 'development') {
-//   const app = createServer();
-//   const port = process.env.PORT || 3000;
-//   app.listen(port,() => {
-//     logger.info(`Server is running on port ${port}`);
-//     logger.info(`Environment: ${process.env.NODE_ENV}`);
-//   });
-// }
+if (process.env.NODE_ENV === 'development') {
+    const app = createServer();
+    const port = process.env.PORT || 3000;
+    app.listen(port, () => {
+        logger_js_1.logger.info(`Server is running on port ${port}`);
+        logger_js_1.logger.info(`Environment: ${process.env.NODE_ENV}`);
+    });
+}
 exports.default = createServer;

@@ -29,14 +29,14 @@ const createServer = () => {
   return app;
 };
 
-// if (process.env.NODE_ENV === 'development') {
-//   const app = createServer();
-//   const port = process.env.PORT || 3000;
+if (process.env.NODE_ENV === 'development') {
+  const app = createServer();
+  const port = process.env.PORT || 3000;
   
-//   app.listen(port,() => {
-//     logger.info(`Server is running on port ${port}`);
-//     logger.info(`Environment: ${process.env.NODE_ENV}`);
-//   });
-// }
+  app.listen(port,() => {
+    logger.info(`Server is running on port ${port}`);
+    logger.info(`Environment: ${process.env.NODE_ENV}`);
+  });
+}
 
 export default createServer;
